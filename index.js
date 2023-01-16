@@ -46,7 +46,7 @@ if(message.interaction){
         // if(i>4) break;
       }
       await message.channel.send({ content: `<@${message.interaction.user.id}>`, embeds: [questionembed] }) // prints the result
-}
+}}
 })
 
 client.login(TOKEN);
